@@ -1,0 +1,6 @@
+{
+  "buildCommand": "echo \"No build step required\"",
+  "installCommand": "npm install --omit=dev",
+  "outputDirectory": "./public",
+  "nodeVersion": "20.18.0"
+}

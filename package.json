@@ -6,7 +6,11 @@
   "bin": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build": "pkg ."
+    "build": "pkg .",
+    "dev": "node server.js",
+    "edgeone:dev": "edgeone pages dev",
+    "edgeone:build": "edgeone pages build",
+    "edgeone:deploy": "edgeone pages deploy"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
